@@ -50,7 +50,7 @@ const Create = () => {
                     <option value="yoshi">yoshi</option>
                 </select>
                 { !isPending && <button>Add Blog</button> }
-                { isPending && <button disable >Adding blog...</button> }
+                { isPending && <button  disabled='true' >Adding blog...</button> }
             </form>
         </div>
      );
